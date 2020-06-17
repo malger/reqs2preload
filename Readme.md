@@ -1,7 +1,7 @@
-# Electron-helper: Move requires from render.js to preload.js
+# Electron-helper: Move require statements from render.js to preload.js
 
 This script should help migration of old [Electron](https://www.electronjs.org/) apps to support the 
-new security policy forbidding require in the renderer.
+new security policy forbidding ```require``` in the renderer.
 
 This is controlled by : ```nodeIntegration:false;``` (which is now the default)
 
