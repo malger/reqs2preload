@@ -20,5 +20,5 @@ reqs2preload --help
 
 
 ### Backup?
-Ofcourse the orginal preload.js file will be saved as backup ```preload.js.orginal```
+Ofcourse the orginal ```preload.js``` file will be saved as backup ```preload.js.orginal```
 The render.js file stays untouched. One must remove the statments manually!
