@@ -5,7 +5,7 @@ new security policy forbidding ```require``` in the renderer.
 
 This is controlled by : ```nodeIntegration:false;``` (which is now the default)
 
-The script will automatically cpüy the require calls to the preload.js from a given file (default renderer.js). Every imported library/module will be exposed into the window.
+The script will automatically copy the ```require``` calls to the preload.js from a given file (default renderer.js). Every imported library/module will be exposed into the window.
 
 
 ### Install
